@@ -1,3 +1,5 @@
+import { Instagram, Twitter } from "@mui/icons-material"
+
 export const homeAbout = [
   {
     id: 1,
@@ -247,16 +249,25 @@ export const team = [
     cover: "./images/team/meenakshi.jpeg",
     name: "Meenakshi Srivastava",
     work: "TEAM LEADER OF ACE CODERS",
+    facebook: "",
+    twitter: "",
+    Instagram:""
   },
   {
     cover: "./images/team/mahima.jpeg",
     name: "Mahima Yadav",
     work: "TEAM MEMBER OF ACE CODERS",
+    facebook: "",
+    twitter: "",
+    Instagram:""
   },
   {
     cover: "./images/team/nitesh2.jpeg",
     name: "Nitesh Srivastava",
     work: "TEAM MEMBER OF ACE CODERS",
+    facebook: "",
+    twitter: "",
+    Instagram:""
   },
 ]
 export const price = [

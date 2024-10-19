@@ -1,6 +1,6 @@
 import React from "react"
 import Back from "../common/back/Back"
-import TeamCard from "../team/TeamCard"
+// import TeamCard from "../team/TeamCard"
 import Awrapper from "../about/Awrapper"
 import "../about/about.css"
 import Sidebar from "./Sidebar"

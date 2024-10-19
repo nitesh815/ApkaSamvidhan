@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +91 8593 95579
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
@@ -89,7 +89,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made by <i className='fa fa-heart'></i> by Ace_Coders
+          Copyright ©2022 All rights reserved | This template is made by <i className='fa fa-heart' id="heart"></i> by Ace_Coders
         </p>
       </div>
     </>
