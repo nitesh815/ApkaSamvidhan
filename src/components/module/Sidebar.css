@@ -7,8 +7,9 @@
     position:relative;
     top: 0;
     left: 0;
-    background-color: #fff; /* Match the primary color */
+    background-color: white; /* Match the primary color */
     padding-top: 40px;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
     color: #208de7;
     transition: width 0.3s;
     z-index: 0;
