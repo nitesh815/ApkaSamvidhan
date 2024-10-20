@@ -11,6 +11,8 @@ import Home from "./components/home/Home"
 import Module from "./components/module/Module"
 import Crossword from "./components/games/crosswordgame"
 import Scenarios from "./components/games/Scenerios"
+import Quizpage from "./components/module/Quizpage"
+import Login from "./Login"
 function App() {
   return (
     <>
@@ -26,6 +28,8 @@ function App() {
           <Route exact path='/module' component={Module} />
           <Route exact path='/crossword' component={Crossword} />
           <Route exact path='/scenarios' component={Scenarios} />
+          <Route exact path='/quizpage' component={Quizpage} />
+          <Route exact path='/Login' component={Login} />
         </Switch>
         <Footer />
       </Router>

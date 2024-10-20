@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { QuizData } from './quizdata'
-import QuizResult from './quizresult';
+import { QuizData1 } from './quizdata'
+import QuizResult from './quizresult'
+const QuizData = QuizData1.filter(q => q.module === "1" );
 function Quiz() {
     const [currentQuestion,setCurrentQuestion]=useState(0);
     const [score,setScore] = useState(0);

@@ -4,7 +4,7 @@ import Back from "../common/back/Back"
 // import Awrapper from "../about/Awrapper"
 
 import Sidebar from "./Sidebar"
-import Quiz from "./quiz"
+import Mabout from "./MAbout"
 import "./quiz.css"
 
 const Module = () => {
@@ -16,9 +16,7 @@ const Module = () => {
         <Sidebar />
         <div className='container'>
           <>
-            <div className="container1">
-              <Quiz />
-            </div>
+            
           </>
         </div>
       </div>

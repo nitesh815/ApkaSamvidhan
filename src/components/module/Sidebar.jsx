@@ -14,7 +14,7 @@ const Sidebar = () => {
           <Link to="/">Video lectures</Link>
         </li>
         <li>
-          <Link to="/src/components/module/quiz.jsx">Quizzes</Link>
+          <Link to="/Quizpage">Quizzes</Link>
         </li>
         <li>
           <Link to="/crossword">Crosswords</Link>

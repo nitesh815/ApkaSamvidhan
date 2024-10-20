@@ -8,7 +8,7 @@ const CoursesCard = () => {
   return (
     <>
       <section className='coursesCard contain'>
-        <div className='container grid2'>
+        <div className='container grid3'>
           {coursesCard.map((val) => (
             <div className='items'>
             <Link to={val.returnpath} style={{ textDecoration: 'none' }}>
