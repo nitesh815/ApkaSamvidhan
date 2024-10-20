@@ -1,5 +1,3 @@
-import { Instagram, Twitter } from "@mui/icons-material"
-
 export const homeAbout = [
   {
     id: 1,
@@ -155,20 +153,7 @@ export const coursesCard = [
     priceAll: "$200 All Course",
     pricePer: "$40 per month",
   },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "The Constitutional Amendments",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
-  },
+  
 ]
 export const online = [
   {

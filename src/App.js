@@ -9,6 +9,8 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import Module from "./components/module/Module"
+import Crossword from "./components/games/crosswordgame"
+import Scenarios from "./components/games/Scenerios"
 function App() {
   return (
     <>
@@ -22,6 +24,8 @@ function App() {
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/module' component={Module} />
+          <Route exact path='/crossword' component={Crossword} />
+          <Route exact path='/scenarios' component={Scenarios} />
         </Switch>
         <Footer />
       </Router>

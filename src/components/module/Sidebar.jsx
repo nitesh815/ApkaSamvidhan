@@ -2,7 +2,8 @@
 import React from 'react';
 import '../module/Sidebar.css';
 import { Link } from 'react-router-dom';
-
+import "../games/crosswordgame"
+import "../games/BlogCard"
 
 const Sidebar = () => {
   return (
@@ -16,7 +17,10 @@ const Sidebar = () => {
           <Link to="/src/components/module/quiz.jsx">Quizzes</Link>
         </li>
         <li>
-          <Link to="/services">Crosswords</Link>
+          <Link to="/crossword">Crosswords</Link>
+        </li>
+        <li>
+          <Link to="/scenarios">Scenarios</Link>
         </li>
       </ul>
     </div>

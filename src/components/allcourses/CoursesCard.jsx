@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const CoursesCard = () => {
   return (
     <>
-      <section className='coursesCard'>
+      <section className='coursesCard contain'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
             <div className='items'>

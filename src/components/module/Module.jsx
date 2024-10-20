@@ -1,25 +1,27 @@
 import React from "react"
 import Back from "../common/back/Back"
 // import TeamCard from "../team/TeamCard"
-import Awrapper from "../about/Awrapper"
-import "../about/about.css"
+// import Awrapper from "../about/Awrapper"
+
 import Sidebar from "./Sidebar"
 import Quiz from "./quiz"
+import "./quiz.css"
 
 const Module = () => {
   return (
     <>
-      <Back title='Team' />
-      
-        <div class="flex">
-      <Sidebar/>
+      <Back title='M1' />
+
+      <div class="flex">
+        <Sidebar />
         <div className='container'>
-        <>
-        <Quiz/>
-        </>
+          <>
+            <div className="container1">
+              <Quiz />
+            </div>
+          </>
         </div>
-        </div>
-      <Awrapper />
+      </div>
     </>
   )
 }
