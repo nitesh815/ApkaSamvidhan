@@ -15,6 +15,7 @@ import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
 import Video from "./components/module/video"
 
+
 function App() {
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
           <Route exact path='/Login' component={Login} />
           <Route exact path='/video' component={Video} />
         </Switch>
-        <Footer />
+        <Footer/>
       </Router>
     </>
   )

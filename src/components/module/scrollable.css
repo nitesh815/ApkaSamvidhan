@@ -1,7 +1,7 @@
 .scrol{
     flex: 1;
     /* Takes equal space */
-    max-height: 60vh;
+    max-height: 100vh;
     /* Set a fixed height */
     overflow-y: scroll;
     /* Enable vertical scroll */

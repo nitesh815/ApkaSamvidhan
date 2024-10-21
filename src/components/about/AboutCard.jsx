@@ -8,11 +8,11 @@ const AboutCard = () => {
   return (
     <>
       <section className='aboutHome'>
-        <div className='container flexSB'>
-          <div className='left row'>
+        <div className='container flexSB margin3'>
+          <div className='left row margin3 mar'>
             <img src='./images/about.webp' alt='' />
           </div>
-          <div className='right row'>
+          <div className='right row margin3 mar'>
             <Heading subtitle='LEARN CONSTITUTION' title='Benefits About AAPKA SAMVIDHAN' />
             <div className='items'>
               {homeAbout.map((val) => {

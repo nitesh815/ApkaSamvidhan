@@ -5,6 +5,12 @@
   text-align: left;
   padding: 0;
 }
+.margin3{
+  margin-top: 50px;
+}
+.mar{
+  margin-bottom: 3%;
+}
 .aboutHome .left img {
   width: 100%;
   height: 100%;

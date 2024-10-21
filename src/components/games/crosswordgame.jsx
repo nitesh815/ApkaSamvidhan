@@ -3,6 +3,7 @@ import "mycrossword/dist/index.css";
 import React from "react";
 import Sidebar from "../module/Sidebar";
 import Back from "../common/back/Back";
+import "./crossword.css"
  
 
 
@@ -154,7 +155,7 @@ export default function crossword() {
       <div className="flex">
         <Sidebar />
         <div className="container try">
-          <div>
+          <div className="margin5">
             <MyCrossword id="crossword-1" data={data1} theme="blue" allowMissingSolutions={true} />
           </div>
         </div>
