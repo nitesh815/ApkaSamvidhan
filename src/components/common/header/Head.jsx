@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom"
 import React from "react"
-
 const Head = () => {
   return (
     <>
@@ -15,7 +15,10 @@ const Head = () => {
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-youtube icon'></i>
-            
+            <Link to="/Login"><button className='primary-btn' style={{marginLeft:"50px"}}>
+                 Login
+              </button>
+            </Link>
           </div>
         </div>
       </section>
