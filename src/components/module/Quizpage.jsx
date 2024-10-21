@@ -1,7 +1,7 @@
 import React from "react"
 import Back from "../common/back/Back"
-import TeamCard from "../team/TeamCard"
-import Awrapper from "../about/Awrapper"
+// import TeamCard from "../team/TeamCard"
+// import Awrapper from "../about/Awrapper"
 import Sidebar from "./Sidebar"
 import Quiz from "./quiz"
 import "./quiz.css"
@@ -9,7 +9,7 @@ import "./quiz.css"
 const Quizpage = () => {
   return (
     <>
-      <Back title='M1' />
+      <Back title='Introduction to the Constitution' />
       
         <div class="flex">
       <Sidebar/>

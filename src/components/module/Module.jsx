@@ -9,7 +9,7 @@ import "./quiz.css"
 const Module = () => {
   return (
     <>
-      <Back title='M1' />
+      <Back title='Introduction to The Constitution ' />
 
       <div class="flex">
         <Sidebar />

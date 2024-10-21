@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../module/Sidebar";
-import Back from "../common/back/Back";
+// import Sidebar from "../module/Sidebar";
+// import Back from "../common/back/Back";
 import "./scrollable.css"
 
 const Video = () => {

@@ -14,6 +14,7 @@ import Scenarios from "./components/games/Scenerios"
 import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
 import Video from "./components/module/video"
+import Mabout  from './components/module/MAbout';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/quizpage' component={Quizpage} />
           <Route exact path='/Login' component={Login} />
           <Route exact path='/video' component={Video} />
+          <Route exact path='/mabout' component={Mabout} />
         </Switch>
         <Footer/>
       </Router>

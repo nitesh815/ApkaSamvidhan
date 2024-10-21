@@ -151,7 +151,7 @@ const data1 = {
 export default function crossword() {
   return (
     <>
-      <Back title="M1" />
+      <Back title="Introduction to the Constitution" />
       <div className="flex">
         <Sidebar />
         <div className="container try">
