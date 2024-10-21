@@ -14,7 +14,7 @@ import Scenarios from "./components/games/Scenerios"
 import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
 import Video from "./components/module/video"
-import Mabout  from './components/module/MAbout';
+import Leaders from "./components/leaderboard/Leaders"
 
 
 function App() {
@@ -33,11 +33,12 @@ function App() {
           <Route exact path='/crossword' component={Crossword} />
           <Route exact path='/scenarios' component={Scenarios} />
           <Route exact path='/quizpage' component={Quizpage} />
-          <Route exact path='/Login' component={Login} />
+          <Route exact path='/leaderboard' component={Leaders} />
           <Route exact path='/video' component={Video} />
-          <Route exact path='/mabout' component={Mabout} />
+          <Route exact path='/Login' component={Login} />
         </Switch>
         <Footer/>
+        
       </Router>
     </>
   )
