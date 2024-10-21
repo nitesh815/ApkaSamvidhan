@@ -14,6 +14,11 @@ import Scenarios from "./components/games/Scenerios"
 import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
 import Video from "./components/module/video"
+<<<<<<< HEAD
+=======
+import Leaders from "./components/leaderboard/Leaders"
+
+>>>>>>> c87b8a4c4bf27ca0ceff0ef43af3cb6444678478
 
 function App() {
   return (
@@ -31,10 +36,17 @@ function App() {
           <Route exact path='/crossword' component={Crossword} />
           <Route exact path='/scenarios' component={Scenarios} />
           <Route exact path='/quizpage' component={Quizpage} />
-          <Route exact path='/Login' component={Login} />
+          <Route exact path='/leaderboard' component={Leaders} />
           <Route exact path='/video' component={Video} />
+<<<<<<< HEAD
         </Switch>
         <Footer />
+=======
+          <Route exact path='/Login' component={Login} />
+        </Switch>
+        <Footer/>
+        
+>>>>>>> c87b8a4c4bf27ca0ceff0ef43af3cb6444678478
       </Router>
     </>
   )
