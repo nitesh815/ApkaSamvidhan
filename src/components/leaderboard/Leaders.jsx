@@ -38,8 +38,8 @@ const Leaders = () => {
           />
           <LeaderboardItem
             rank={2}
-            name="JANE DOE"
-            designation="Designation"
+            name="Meenakshi Srivastava"
+            designation="A civic student"
             stars={4}
             score={6842}
             imgSrc="https://placehold.co/40x40"
@@ -47,8 +47,8 @@ const Leaders = () => {
           />
           <LeaderboardItem
             rank={3}
-            name="JOHN DOE"
-            designation="Designation"
+            name="Nitesh Srivastava"
+            designation="Constitution student"
             stars={3}
             score={3549}
             imgSrc="https://placehold.co/40x40"
@@ -56,7 +56,7 @@ const Leaders = () => {
           />
           <LeaderboardItem
             rank={4}
-            name="JANE DOE"
+            name="Priya Singh"
             designation="Designation"
             stars={3}
             score={2159}
@@ -65,7 +65,7 @@ const Leaders = () => {
           />
           <LeaderboardItem
             rank={5}
-            name="JOHN DOE"
+            name="Harsh Singh"
             designation="Designation"
             stars={2}
             score={4537}
@@ -75,7 +75,7 @@ const Leaders = () => {
         </div>
       </section>
     </>
-  )
+  );
 };
 
 export default Leaders;
