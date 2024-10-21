@@ -9,9 +9,9 @@
     justify-content: center;    
     min-height: 100vh;
     width: 100%;
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
   }
  
   .container1 {
@@ -100,8 +100,6 @@
     width:100px;
     position:absolute;
     bottom: 15px;
-    left: 50%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Adjust for width */
   }
   #next-button:active{
     box-shadow:none;    
@@ -109,14 +107,6 @@
   .show-score{
     position: absolute;
     top:30%;
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;  
-    color: var(--score-color);
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Padding around text */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-    width: 90%; /* Responsive width */
-    left: 50%; /* Center the score horizontally */
-    transform: translateX(-50%); /* Adjust for width */
   }

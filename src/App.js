@@ -13,6 +13,8 @@ import Crossword from "./components/games/crosswordgame"
 import Scenarios from "./components/games/Scenerios"
 import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
+import Video from "./components/module/video"
+
 function App() {
   return (
     <>
@@ -30,6 +32,7 @@ function App() {
           <Route exact path='/scenarios' component={Scenarios} />
           <Route exact path='/quizpage' component={Quizpage} />
           <Route exact path='/Login' component={Login} />
+          <Route exact path='/video' component={Video} />
         </Switch>
         <Footer />
       </Router>

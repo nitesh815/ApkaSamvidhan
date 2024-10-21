@@ -11,7 +11,7 @@ const Sidebar = () => {
       <h2>Inside this Module:</h2>
       <ul>
         <li>
-          <Link to="/">Video lectures</Link>
+          <Link to="/video">Video lectures</Link>
         </li>
         <li>
           <Link to="/Quizpage">Quizzes</Link>

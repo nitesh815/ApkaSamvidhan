@@ -44,7 +44,7 @@ function Quiz() {
                     return(
                         <button 
                         className={`option-btn ${
-                            clickedOption == i+1?"checked":null
+                            clickedOption === i+1?"checked":null
                         }`}
                         key={i}
                         onClick={()=>setClickedOption(i+1)}
