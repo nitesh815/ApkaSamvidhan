@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './GainRewards.css';
 
@@ -6,17 +7,32 @@ const GainRewards = () => {
         <div className="rewards-container">
             <h1 className="rewards-header">Gain Rewards</h1>
             <p className="rewards-description">
-                Welcome to the Gain Rewards page! Here, you can earn various rewards based on your activities.
+                Unlock amazing rewards by completing challenges and activities!
             </p>
-            <div className="reward-card">
-                <h2 className="card-title">Reward #1</h2>
-                <p className="card-details">Complete 5 courses to earn a special badge!</p>
-                <button className="reward-button">Claim Reward</button>
+            <div className="progress-tracker">
+                <h2 className="tracker-title">Your Progress</h2>
+                <div className="progress-bar">
+                    <div className="progress-fill" style={{ width: '70%' }}></div>
+                </div>
+                <p className="progress-text">70% to next reward</p>
             </div>
-            <div className="reward-card">
-                <h2 className="card-title">Reward #2</h2>
-                <p className="card-details">Refer a friend and earn bonus points!</p>
-                <button className="reward-button">Claim Reward</button>
+            <div className="reward-categories">
+                <h2 className="categories-title">Rewards Available</h2>
+                <div className="reward-card">
+                    <h3 className="card-title">Complete Courses</h3>
+                    <p className="card-details">Finish 5 courses to earn a special badge!</p>
+                    <button className="reward-button">Claim Reward</button>
+                </div>
+                <div className="reward-card">
+                    <h3 className="card-title">Refer Friends</h3>
+                    <p className="card-details">Invite a friend and earn bonus points!</p>
+                    <button className="reward-button">Claim Reward</button>
+                </div>
+                <div className="reward-card">
+                    <h3 className="card-title">Daily Login</h3>
+                    <p className="card-details">Log in for 7 consecutive days to earn exclusive perks!</p>
+                    <button className="reward-button">Claim Reward</button>
+                </div>
             </div>
         </div>
     );
