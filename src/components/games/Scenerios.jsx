@@ -13,7 +13,7 @@ const Scenarios = () => {
 
                 <div class="flex">
                     <Sidebar />
-                    <div class="container">
+                    <div class="container5">
                         <>
                             <div >
                                 <BlogCard scenarios={dummyScenarios} />

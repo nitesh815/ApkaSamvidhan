@@ -10,7 +10,7 @@ const Video = () => {
 
             <div class="flex">
                 <Sidebar />
-                <div className='container scrol'>
+                <div className='container scrol ' style={{margin:"20px"}}>
                     <>
                         <div className="video">
                             <h2 style={{marginBottom:"10px"}}>

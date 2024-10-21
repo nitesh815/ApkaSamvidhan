@@ -13,7 +13,7 @@ const Quizpage = () => {
       
         <div class="flex">
       <Sidebar/>
-        <div className='container'>
+        <div className='container5'>
         <>
         <div className="container1">
         <Quiz/>

@@ -42,6 +42,12 @@
     margin-top: 10px;
     transition: 0.5s;
   }
+  .container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
   .modulee .items:hover {
     background-color: #208de7;
     color: #fff;

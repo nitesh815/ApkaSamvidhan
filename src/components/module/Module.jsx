@@ -13,7 +13,7 @@ const Module = () => {
 
       <div class="flex">
         <Sidebar />
-        <div className='container'>
+        <div className='container3 margin5'>
 
           <>
           <Mabout/>  
