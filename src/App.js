@@ -15,6 +15,7 @@ import Quizpage from "./components/module/Quizpage"
 import Login from "./Login"
 import Video from "./components/module/video"
 import Leaders from "./components/leaderboard/Leaders"
+import GainRewards from './components/GainRewards';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route exact path='/leaderboard' component={Leaders} />
           <Route exact path='/video' component={Video} />
           <Route exact path='/Login' component={Login} />
+          <Route path="/Gainrewards" component={GainRewards} />
         </Switch>
         <Footer/>
         
