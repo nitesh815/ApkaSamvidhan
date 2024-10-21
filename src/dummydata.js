@@ -66,8 +66,7 @@ export const coursesCard = [
         totalTime: "30 lectures (125 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    returnpath: "/Module",
   },
   {
     id: 3,
@@ -80,8 +79,7 @@ export const coursesCard = [
         totalTime: "50 lectures (50 hrs)",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    returnpath: "/Module",
   },
   {
     id: 4,
@@ -94,8 +92,7 @@ export const coursesCard = [
         totalTime: "20 lectures (20 hrs)",
       },
     ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
+    returnpath: "/Module",
   },
   {
     id: 5,
@@ -108,8 +105,7 @@ export const coursesCard = [
         totalTime: "100 lectures (150 hrs)",
       },
     ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
+    returnpath: "/Module",
   },
   {
     id: 6,
@@ -122,8 +118,7 @@ export const coursesCard = [
         totalTime: "200 lectures (300 hrs)",
       },
     ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
+    returnpath: "/Module",
   },
   {
     id: 7,
@@ -136,8 +131,7 @@ export const coursesCard = [
         totalTime: "20 lectures (50 hrs)",
       },
     ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
+    returnpath: "/Module",
   },
   {
     id: 8,
@@ -150,8 +144,7 @@ export const coursesCard = [
         totalTime: "80 lectures (200 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
+    returnpath: "/Module",
   },
   
 ]
