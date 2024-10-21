@@ -24,14 +24,14 @@ const LeaderboardItem = ({ rank, name, designation, stars, score, imgSrc, medal 
 const Leaders = () => {
   return (
     <>
-      <Back title='Team Leaderboard' />
+      <Back title='Leaderboard' />
       <section className='team padding'>
-        <div className="container grid leaderboard">
+        <div className="container grid5 leaderboard">
           <div className="leaderboard-header">TEAM LEADERBOARD</div>
           <LeaderboardItem
             rank={1}
-            name="JOHN DOE"
-            designation="Designation"
+            name="Mahima Yadav"
+            designation="Student at KIET"
             stars={4}
             score={5648}
             imgSrc="https://placehold.co/40x40"
