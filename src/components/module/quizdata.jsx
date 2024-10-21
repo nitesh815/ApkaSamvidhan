@@ -126,7 +126,7 @@ export const QuizData1 = [
                 "question": "Directive Principles of State Policy are included in which part of the Constitution?",
                 "options": ["Part II", "Part III", "Part IV", "Part V"],
                 "answer": "Part IV",
-                module:"3"
+                "module":"3"
             },
             {
                 "question": "Directive Principles are:",
@@ -187,7 +187,7 @@ export const QuizData1 = [
                 "question": "The President of India is elected by:",
                 "options": ["Direct election", "Indirect election", "Nomination", "Electoral college"],
                 "answer": "Electoral college",
-                module:"4"
+                "module":"4"
             },
             {
                 "question": "The President of India holds office for a term of:",
@@ -248,7 +248,7 @@ export const QuizData1 = [
                 "question": "The Governor of a state is appointed by the:",
                 "options": ["Prime Minister", "President", "Chief Minister", "Chief Justice of India"],
                 "answer": "President",
-                module:"5"
+                "module":"5"
             },
             {
                 "question": "The Chief Minister is appointed by the:",
@@ -309,7 +309,7 @@ export const QuizData1 = [
                 "question": "The Parliament of India consists of:",
                 "options": ["The Lok Sabha", "The Rajya Sabha", "The President", "All of the above"],
                 "answer": "All of the above",
-                module:"6"
+                "module":"6"
             },
             {
                 "question": "The maximum strength of the Lok Sabha is:",
@@ -407,7 +407,7 @@ export const QuizData1 = [
             "question": "Which Article of the Constitution provides for the establishment of Panchayati Raj?",
             "options": ["Article 40", "Article 243", "Article 44", "Article 32"],
             "answer": "Article 243",
-            module:"7"
+            "module":"7"
         },
         {
             "question": "The 73rd Amendment deals with:",
@@ -469,7 +469,7 @@ export const QuizData1 = [
                 "question": "The Supreme Court of India was established in the year:",
                 "options": ["1950", "1949", "1951", "1947"],
                 "answer": "1950",
-                module:"8"
+                "module":"8"
             },
             {
                 "question": "Which Article of the Constitution provides for the establishment of the Supreme Court?",

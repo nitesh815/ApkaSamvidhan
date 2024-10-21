@@ -3,7 +3,7 @@
     background-image: url(/public//images//bluebg1.jpg);
     padding: 30%;
     background-size: cover;
-    background-blend-mode:darken;
+    background-blend-mode:color-burn;
     border-radius: 10px;
     width: 600px;
     max-width: 800px;

@@ -76,8 +76,14 @@ const Leaders = () => {
         </div>
       </section>
     </>
+<<<<<<< HEAD
+    
+  )
+}
+=======
   );
 };
 
 export default Leaders;
+>>>>>>> c87b8a4c4bf27ca0ceff0ef43af3cb6444678478
 
