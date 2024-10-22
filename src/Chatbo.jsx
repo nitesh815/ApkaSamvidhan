@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './chatbot.css';
+import '../src/components/module/scrollable.css'
 import ReactMarkdown from 'react-markdown';
 import { HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 const { GoogleGenerativeAI } = require("@google/generative-ai");
@@ -52,6 +53,7 @@ function Chatbo() {
   };
 
   return (
+    <div className="container scrol" style={{ height:"200px", width:"800px"}}>
     <div className="chat-container">
       <div className="chat-box">
         {messages.map((message, index) => (
@@ -64,7 +66,7 @@ function Chatbo() {
           </div>
         ))}
       </div>
-      <div className="input-box">
+      <div className="input-box" style={{position:"sticky"}}>
         <input
           type="text"
           placeholder="Type a message..."
@@ -79,6 +81,7 @@ function Chatbo() {
         <button onClick={handleMessageSend}>Send</button>
       </div>
     </div>
+  </div>
   );
 }
 

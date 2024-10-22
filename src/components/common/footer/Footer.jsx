@@ -2,6 +2,7 @@ import React from "react"
 import { blog } from "../../../dummydata"
 import "./footer.css"
 
+
 const Footer = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const Footer = () => {
             <p>Learn the Indian Constitution through interactive courses and resources.</p>
 
             <i className='fab fa-facebook-f icon'></i>
+           
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
           </div>

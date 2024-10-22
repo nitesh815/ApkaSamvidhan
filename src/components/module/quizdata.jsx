@@ -59,7 +59,439 @@ export const QuizData1 = [
                 "options": ["January 26, 1950", "August 15, 1947", "November 26, 1949", "January 26, 1949"],
                 "answer": "November 26, 1949",
                 "module": "1"
-            },
+    },
+    {
+        "question": "Which amendment to the Constitution of India granted the right to vote to all adults?",
+        "options": ["61st Amendment", "73rd Amendment", "86th Amendment", "None of the above"],
+        "answer": "61st Amendment",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India provides for a single citizenship for:",
+        "options": ["Only citizens born in India", "Only naturalized citizens", "All citizens", "Only citizens of the states"],
+        "answer": "All citizens",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution of India ensures equality before law?",
+        "options": ["Article 14", "Article 15", "Article 16", "Article 17"],
+        "answer": "Article 14",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India is known as a:",
+        "options": ["Rigid Constitution", "Flexible Constitution", "Flexible and Rigid Constitution", "None of the above"],
+        "answer": "Flexible Constitution",
+        "module": "1"
+    },
+    {
+        "question": "The fundamental duties were added to the Constitution by which amendment?",
+        "options": ["42nd Amendment", "44th Amendment", "61st Amendment", "73rd Amendment"],
+        "answer": "42nd Amendment",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution deals with the distribution of powers between the Union and the States?",
+        "options": ["Part I", "Part II", "Part III", "Part IV"],
+        "answer": "Part XI",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India establishes the system of:",
+        "options": ["Unitary Government", "Federal Government", "Confederation", "None of the above"],
+        "answer": "Federal Government",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution of India deals with the right to education?",
+        "options": ["Article 21A", "Article 19", "Article 45", "Article 30"],
+        "answer": "Article 21A",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution was adopted on which date?",
+        "options": ["January 26, 1950", "November 26, 1949", "August 15, 1947", "January 26, 1949"],
+        "answer": "November 26, 1949",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers the President to appoint the Prime Minister?",
+        "options": ["Article 75", "Article 80", "Article 90", "Article 100"],
+        "answer": "Article 75",
+        "module": "1"
+    },
+    {
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": ["B.R. Ambedkar", "Jawaharlal Nehru", "Sardar Patel", "Dr. Rajendra Prasad"],
+        "answer": "B.R. Ambedkar",
+        "module": "1"
+    },
+    {
+        "question": "The original Constitution of India had how many schedules?",
+        "options": ["12", "14", "8", "10"],
+        "answer": "8",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the establishment of the Finance Commission?",
+        "options": ["Article 280", "Article 300", "Article 245", "Article 265"],
+        "answer": "Article 280",
+        "module": "1"
+    },
+    {
+        "question": "The concept of 'Judicial Review' is borrowed from which country?",
+        "options": ["USA", "UK", "France", "Germany"],
+        "answer": "USA",
+        "module": "1"
+    },
+    {
+        "question": "How many fundamental rights are provided in the Constitution of India?",
+        "options": ["6", "7", "5", "4"],
+        "answer": "6",
+        "module": "1"
+    },
+    {
+        "question": "Which article prohibits discrimination on grounds of religion, race, caste, sex or place of birth?",
+        "options": ["Article 15", "Article 16", "Article 17", "Article 18"],
+        "answer": "Article 15",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution contains provisions for the amendment of the Constitution?",
+        "options": ["Part IX", "Part X", "Part II", "Part XX"],
+        "answer": "Part XX",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers Parliament to make laws for the country?",
+        "options": ["Article 245", "Article 256", "Article 265", "Article 275"],
+        "answer": "Article 245",
+        "module": "1"
+    },
+    {
+        "question": "Which amendment abolished the right to property as a Fundamental Right?",
+        "options": ["44th Amendment", "42nd Amendment", "61st Amendment", "73rd Amendment"],
+        "answer": "44th Amendment",
+        "module": "1"
+    },
+    {
+        "question": "The President of India is elected by:",
+        "options": ["Direct voting", "Indirect voting", "Parliament", "State Assemblies"],
+        "answer": "Indirect voting",
+        "module": "1"
+    },
+    {
+        "question": "The basic structure of the Constitution cannot be altered by:",
+        "options": ["Parliament", "State Assemblies", "Judiciary", "None of the above"],
+        "answer": "Parliament",
+        "module": "1"
+    },
+    {
+        "question": "The right to equality includes which of the following rights?",
+        "options": ["Right to Equality before Law", "Right to Equal Pay", "Right to Freedom of Speech", "Right to Freedom of Religion"],
+        "answer": "Right to Equality before Law",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India recognizes how many languages in the Eighth Schedule?",
+        "options": ["22", "15", "25", "18"],
+        "answer": "22",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the establishment of a uniform civil code?",
+        "options": ["Article 44", "Article 45", "Article 46", "Article 47"],
+        "answer": "Article 44",
+        "module": "1"
+    },
+    {
+        "question": "Which article deals with the appointment of the Attorney General of India?",
+        "options": ["Article 76", "Article 78", "Article 80", "Article 82"],
+        "answer": "Article 76",
+        "module": "1"
+    },
+    {
+        "question": "The right to privacy is recognized as a Fundamental Right under which article?",
+        "options": ["Article 21", "Article 14", "Article 19", "Article 22"],
+        "answer": "Article 21",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution discusses the role of the President?",
+        "options": ["Part V", "Part VI", "Part VII", "Part VIII"],
+        "answer": "Part V",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers the state to make special provisions for women?",
+        "options": ["Article 15(3)", "Article 16", "Article 17", "Article 18"],
+        "answer": "Article 15(3)",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India provides for how many types of emergencies?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "module": "1"
+    },
+    {
+        "question": "Which article provides for the right to life and personal liberty?",
+        "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+        "answer": "Article 21",
+        "module": "1"
+    },
+    {
+        "question": "Which article prohibits the practice of untouchability?",
+        "options": ["Article 17", "Article 18", "Article 15", "Article 14"],
+        "answer": "Article 17",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers Parliament to legislate on matters in the Concurrent List?",
+        "options": ["Article 246", "Article 248", "Article 249", "Article 250"],
+        "answer": "Article 246",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India was enacted by which assembly?",
+        "options": ["Constituent Assembly", "Parliament", "State Assembly", "Lok Sabha"],
+        "answer": "Constituent Assembly",
+        "module": "1"
+    },
+    {
+        "question": "Which article deals with the duration of the Lok Sabha?",
+        "options": ["Article 83", "Article 84", "Article 85", "Article 86"],
+        "answer": "Article 83",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India is the longest written constitution in the world.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the appointment of the Vice President?",
+        "options": ["Article 63", "Article 64", "Article 65", "Article 66"],
+        "answer": "Article 63",
+        "module": "1"
+    },
+            {
+        "question": "Which amendment to the Constitution of India granted the right to vote to all adults?",
+        "options": ["61st Amendment", "73rd Amendment", "86th Amendment", "None of the above"],
+        "answer": "61st Amendment",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India provides for a single citizenship for:",
+        "options": ["Only citizens born in India", "Only naturalized citizens", "All citizens", "Only citizens of the states"],
+        "answer": "All citizens",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution of India ensures equality before law?",
+        "options": ["Article 14", "Article 15", "Article 16", "Article 17"],
+        "answer": "Article 14",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India is known as a:",
+        "options": ["Rigid Constitution", "Flexible Constitution", "Flexible and Rigid Constitution", "None of the above"],
+        "answer": "Flexible Constitution",
+        "module": "1"
+    },
+    {
+        "question": "The fundamental duties were added to the Constitution by which amendment?",
+        "options": ["42nd Amendment", "44th Amendment", "61st Amendment", "73rd Amendment"],
+        "answer": "42nd Amendment",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution deals with the distribution of powers between the Union and the States?",
+        "options": ["Part I", "Part II", "Part III", "Part IV"],
+        "answer": "Part XI",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India establishes the system of:",
+        "options": ["Unitary Government", "Federal Government", "Confederation", "None of the above"],
+        "answer": "Federal Government",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution of India deals with the right to education?",
+        "options": ["Article 21A", "Article 19", "Article 45", "Article 30"],
+        "answer": "Article 21A",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution was adopted on which date?",
+        "options": ["January 26, 1950", "November 26, 1949", "August 15, 1947", "January 26, 1949"],
+        "answer": "November 26, 1949",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers the President to appoint the Prime Minister?",
+        "options": ["Article 75", "Article 80", "Article 90", "Article 100"],
+        "answer": "Article 75",
+        "module": "1"
+    },
+    {
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": ["B.R. Ambedkar", "Jawaharlal Nehru", "Sardar Patel", "Dr. Rajendra Prasad"],
+        "answer": "B.R. Ambedkar",
+        "module": "1"
+    },
+    {
+        "question": "The original Constitution of India had how many schedules?",
+        "options": ["12", "14", "8", "10"],
+        "answer": "8",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the establishment of the Finance Commission?",
+        "options": ["Article 280", "Article 300", "Article 245", "Article 265"],
+        "answer": "Article 280",
+        "module": "1"
+    },
+    {
+        "question": "The concept of 'Judicial Review' is borrowed from which country?",
+        "options": ["USA", "UK", "France", "Germany"],
+        "answer": "USA",
+        "module": "1"
+    },
+    {
+        "question": "How many fundamental rights are provided in the Constitution of India?",
+        "options": ["6", "7", "5", "4"],
+        "answer": "6",
+        "module": "1"
+    },
+    {
+        "question": "Which article prohibits discrimination on grounds of religion, race, caste, sex or place of birth?",
+        "options": ["Article 15", "Article 16", "Article 17", "Article 18"],
+        "answer": "Article 15",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution contains provisions for the amendment of the Constitution?",
+        "options": ["Part IX", "Part X", "Part II", "Part XX"],
+        "answer": "Part XX",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers Parliament to make laws for the country?",
+        "options": ["Article 245", "Article 256", "Article 265", "Article 275"],
+        "answer": "Article 245",
+        "module": "1"
+    },
+    {
+        "question": "Which amendment abolished the right to property as a Fundamental Right?",
+        "options": ["44th Amendment", "42nd Amendment", "61st Amendment", "73rd Amendment"],
+        "answer": "44th Amendment",
+        "module": "1"
+    },
+    {
+        "question": "The President of India is elected by:",
+        "options": ["Direct voting", "Indirect voting", "Parliament", "State Assemblies"],
+        "answer": "Indirect voting",
+        "module": "1"
+    },
+    {
+        "question": "The basic structure of the Constitution cannot be altered by:",
+        "options": ["Parliament", "State Assemblies", "Judiciary", "None of the above"],
+        "answer": "Parliament",
+        "module": "1"
+    },
+    {
+        "question": "The right to equality includes which of the following rights?",
+        "options": ["Right to Equality before Law", "Right to Equal Pay", "Right to Freedom of Speech", "Right to Freedom of Religion"],
+        "answer": "Right to Equality before Law",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India recognizes how many languages in the Eighth Schedule?",
+        "options": ["22", "15", "25", "18"],
+        "answer": "22",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the establishment of a uniform civil code?",
+        "options": ["Article 44", "Article 45", "Article 46", "Article 47"],
+        "answer": "Article 44",
+        "module": "1"
+    },
+    {
+        "question": "Which article deals with the appointment of the Attorney General of India?",
+        "options": ["Article 76", "Article 78", "Article 80", "Article 82"],
+        "answer": "Article 76",
+        "module": "1"
+    },
+    {
+        "question": "The right to privacy is recognized as a Fundamental Right under which article?",
+        "options": ["Article 21", "Article 14", "Article 19", "Article 22"],
+        "answer": "Article 21",
+        "module": "1"
+    },
+    {
+        "question": "Which part of the Constitution discusses the role of the President?",
+        "options": ["Part V", "Part VI", "Part VII", "Part VIII"],
+        "answer": "Part V",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers the state to make special provisions for women?",
+        "options": ["Article 15(3)", "Article 16", "Article 17", "Article 18"],
+        "answer": "Article 15(3)",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India provides for how many types of emergencies?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "module": "1"
+    },
+    {
+        "question": "Which article provides for the right to life and personal liberty?",
+        "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+        "answer": "Article 21",
+        "module": "1"
+    },
+    {
+        "question": "Which article prohibits the practice of untouchability?",
+        "options": ["Article 17", "Article 18", "Article 15", "Article 14"],
+        "answer": "Article 17",
+        "module": "1"
+    },
+    {
+        "question": "Which article empowers Parliament to legislate on matters in the Concurrent List?",
+        "options": ["Article 246", "Article 248", "Article 249", "Article 250"],
+        "answer": "Article 246",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India was enacted by which assembly?",
+        "options": ["Constituent Assembly", "Parliament", "State Assembly", "Lok Sabha"],
+        "answer": "Constituent Assembly",
+        "module": "1"
+    },
+    {
+        "question": "Which article deals with the duration of the Lok Sabha?",
+        "options": ["Article 83", "Article 84", "Article 85", "Article 86"],
+        "answer": "Article 83",
+        "module": "1"
+    },
+    {
+        "question": "The Constitution of India is the longest written constitution in the world.",
+        "options": ["True", "False"],
+        "answer": "True",
+        "module": "1"
+    },
+    {
+        "question": "Which article of the Constitution provides for the appointment of the Vice President?",
+        "options": ["Article 63", "Article 64", "Article 65", "Article 66"],
+        "answer": "Article 63",
+        "module": "1"
+    },
             {
                 "_comment": "Fundamental Rights and Duties",
                 "question": "Fundamental Rights are enshrined in which part of the Indian Constitution?",
@@ -126,7 +558,7 @@ export const QuizData1 = [
                 "question": "Directive Principles of State Policy are included in which part of the Constitution?",
                 "options": ["Part II", "Part III", "Part IV", "Part V"],
                 "answer": "Part IV",
-                "module":"3"
+                module:"3"
             },
             {
                 "question": "Directive Principles are:",
@@ -187,7 +619,7 @@ export const QuizData1 = [
                 "question": "The President of India is elected by:",
                 "options": ["Direct election", "Indirect election", "Nomination", "Electoral college"],
                 "answer": "Electoral college",
-                "module":"4"
+                module:"4"
             },
             {
                 "question": "The President of India holds office for a term of:",
@@ -248,7 +680,7 @@ export const QuizData1 = [
                 "question": "The Governor of a state is appointed by the:",
                 "options": ["Prime Minister", "President", "Chief Minister", "Chief Justice of India"],
                 "answer": "President",
-                "module":"5"
+                module:"5"
             },
             {
                 "question": "The Chief Minister is appointed by the:",
@@ -309,7 +741,7 @@ export const QuizData1 = [
                 "question": "The Parliament of India consists of:",
                 "options": ["The Lok Sabha", "The Rajya Sabha", "The President", "All of the above"],
                 "answer": "All of the above",
-                "module":"6"
+                module:"6"
             },
             {
                 "question": "The maximum strength of the Lok Sabha is:",
@@ -407,7 +839,7 @@ export const QuizData1 = [
             "question": "Which Article of the Constitution provides for the establishment of Panchayati Raj?",
             "options": ["Article 40", "Article 243", "Article 44", "Article 32"],
             "answer": "Article 243",
-            "module":"7"
+            module:"7"
         },
         {
             "question": "The 73rd Amendment deals with:",
@@ -469,7 +901,7 @@ export const QuizData1 = [
                 "question": "The Supreme Court of India was established in the year:",
                 "options": ["1950", "1949", "1951", "1947"],
                 "answer": "1950",
-                "module":"8"
+                module:"8"
             },
             {
                 "question": "Which Article of the Constitution provides for the establishment of the Supreme Court?",
