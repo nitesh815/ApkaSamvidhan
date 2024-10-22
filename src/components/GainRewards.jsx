@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './GainRewards.css';
 
@@ -34,8 +33,18 @@ const GainRewards = () => {
                     <button className="reward-button">Claim Reward</button>
                 </div>
             </div>
+            <div className="crossword-rewards">
+                <h2 className="crossword-title">Crossword Challenge</h2>
+                <p className="crossword-details">Solve a crossword puzzle to gain:</p>
+                <div className="crossword-points">
+                    <span className="points">10 Points</span>
+                </div>
+                <button className="reward-button">Start Crossword</button>
+            </div>
         </div>
     );
 };
 
 export default GainRewards;
+
+
