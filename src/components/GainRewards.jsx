@@ -1,5 +1,7 @@
 import React from 'react';
 import './GainRewards.css';
+import { Link } from 'react-router-dom';  
+
 
 const GainRewards = () => {
     return (
@@ -39,7 +41,9 @@ const GainRewards = () => {
                 <div className="crossword-points">
                     <span className="points">10 Points</span>
                 </div>
+                <Link to="/crossword">
                 <button className="reward-button">Start Crossword</button>
+                </Link>
             </div>
         </div>
     );

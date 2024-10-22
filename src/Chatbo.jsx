@@ -10,7 +10,6 @@ function Chatbo() {
   const [input, setInput] = useState('');
 
   useEffect(() => {
-    // No initial message here
   }, []);
 
   const handleMessageSend = async () => {
@@ -54,8 +53,7 @@ function Chatbo() {
 
   return (
     <>
-      <div className="margin5"></div>
-    <div className="container" style={{ height:"200px", width:"800px"}}>
+    <div className="container" style={{ height:"200px", width:"800px", marginLeft:"400px",marginTop:"70px"}}>
     <div className="chat-container">
       <div className="chat-box scroll">
         {messages.map((message, index) => (
@@ -71,7 +69,7 @@ function Chatbo() {
           <div className="input-box" style={{ position: "sticky",}}>
         <input
           type="text"
-          placeholder="Type a message..."
+          placeholder="Ask anything about the constitution here..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyPress={(e) => {

@@ -34,13 +34,10 @@ chat-container {
 
 .scroll {
     flex: 1;
-    /* Takes equal space */
     max-height: 30vh;
     height: 30vh;
     width: 200vh;
-    /* Set a fixed height */
     overflow-y: scroll;
-    /* Enable vertical scroll */
     background-color: #f8f8f8;
     padding: 20px;
 }
@@ -54,8 +51,12 @@ chat-container {
 .input-box {
     display: flex;
     width: 80%;
+    height: 60px;
     max-width: 600px;
     position:sticky;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(189, 188, 188, 0.712);
+
 }
 
 input[type="text"] {
@@ -67,14 +68,15 @@ input[type="text"] {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: none;
     background-color: #007bff;
     color: #fff;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 16px;
+    margin: 10px;
 }
 
 button:hover {
