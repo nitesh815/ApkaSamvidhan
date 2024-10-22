@@ -1,7 +1,7 @@
 import React from 'react';
 // import './App.css'; // If you want to move the styles to a CSS file
 import './login.css'
-import { blue, pink } from '@mui/material/colors';
+
 
 const Login = () => {
     return (

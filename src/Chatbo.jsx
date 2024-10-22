@@ -53,9 +53,11 @@ function Chatbo() {
   };
 
   return (
-    <div className="container scrol" style={{ height:"200px", width:"800px"}}>
+    <>
+      <div className="margin5"></div>
+    <div className="container" style={{ height:"200px", width:"800px"}}>
     <div className="chat-container">
-      <div className="chat-box">
+      <div className="chat-box scroll">
         {messages.map((message, index) => (
           <div key={index} className={`message ${message.sender}`}>
             {message.sender === 'bot' ? (
@@ -66,7 +68,7 @@ function Chatbo() {
           </div>
         ))}
       </div>
-      <div className="input-box" style={{position:"sticky"}}>
+          <div className="input-box" style={{ position: "sticky",}}>
         <input
           type="text"
           placeholder="Type a message..."
@@ -81,7 +83,9 @@ function Chatbo() {
         <button onClick={handleMessageSend}>Send</button>
       </div>
     </div>
-  </div>
+      </div>
+      <div className="margin4"></div>
+    </>
   );
 }
 

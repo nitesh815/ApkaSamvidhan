@@ -11,9 +11,13 @@ chat-container {
     max-width: 600px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(189, 188, 188, 0.712);
     overflow-y: auto;
     margin-bottom: 20px;
+}
+
+.margin4{
+    margin-bottom: 10%;
 }
 
 .message {
@@ -23,13 +27,26 @@ chat-container {
 }
 
 .user {
-    background-color: #007bff;
+    background-color: #3593f7;
     color: #fff;
     align-self: flex-end;
 }
 
+.scroll {
+    flex: 1;
+    /* Takes equal space */
+    max-height: 30vh;
+    height: 30vh;
+    width: 200vh;
+    /* Set a fixed height */
+    overflow-y: scroll;
+    /* Enable vertical scroll */
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
 .bot {
-    background-color: #6c757d;
+    background-color: #000000;
     color: #fff;
     align-self: flex-start;
 }
@@ -57,6 +74,7 @@ button {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
 button:hover {
