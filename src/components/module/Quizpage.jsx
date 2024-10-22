@@ -9,7 +9,7 @@ import "./quiz.css"
 const Quizpage = () => {
   return (
     <>
-      <Back title='Introduction to the Constitution' />
+      <Back title='Introduction to Constitution' />
       
         <div class="flex">
       <Sidebar/>
